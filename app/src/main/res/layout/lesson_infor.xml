@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.LessonInforActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lesson ..: name"
+        android:textSize="24dp"
+        android:id="@+id/tvLSINFtitle"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vocabulary: "
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp">
+    </TextView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:id="@+id/lvLSINF">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:hint="insert new word"
+            android:textSize="18dp"
+            android:id="@+id/edtLSINF">
+
+        </EditText>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="add"
+            android:textSize="18dp"
+            android:id="@+id/btnAddLSINF"
+            android:onClick="addWord">
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="back"></Button>
+
+</LinearLayout>

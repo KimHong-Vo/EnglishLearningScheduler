@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/border"
+    android:layout_marginBottom="30dp"
+    android:id="@+id/layoutLinear">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lesson ..."
+        android:id="@+id/tvLVHOMEtitle"
+        android:textSize="24dp">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="16dp"
+            android:layout_weight="3"
+            android:backgroundTint="#E62727"
+            android:id="@+id/btnLVHOMEphase1">
+
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="16dp"
+            android:layout_weight="2"
+            android:backgroundTint="#E62727"
+            android:id="@+id/btnLVHOMEphase2">
+
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="16dp"
+            android:layout_weight="3"
+            android:backgroundTint="#E62727"
+            android:id="@+id/btnLVHOMEphase3">
+
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="16dp"
+            android:layout_weight="5"
+            android:backgroundTint="#E62727"
+            android:id="@+id/btnLVHOMEphase4">
+
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="16dp"
+            android:layout_weight="7"
+            android:backgroundTint="#E62727"
+            android:id="@+id/btnLVHOMEphase5">
+
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="16dp"
+            android:layout_weight="30"
+            android:backgroundTint="#E62727"
+            android:id="@+id/btnLVHOMEphase6">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
